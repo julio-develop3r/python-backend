@@ -5,7 +5,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hola Doris buenas noches a peguitas y a ti :D"}
+    return {"message": "FastAPI is running!"}
 
 
 # Ruta para obtener un item por ID
